@@ -2,6 +2,8 @@ spring:
   profiles:
     active: dev 
 ---
+server:
+  port: 8101
 spring: 
   profiles: dev 
   application:
@@ -11,6 +13,8 @@ eureka:
     service-url: 
       defaultZone: http://eadmin:111111@eureka-node104-7001.com:7001/eureka,http://eadmin:111111@eureka-node105-7001.com:7001/eureka,http://eadmin:111111@eureka-node106-7001.com:7001/eureka 
 ---
+server:
+  port: 8102
 spring: 
   profiles: beta 
   application:
