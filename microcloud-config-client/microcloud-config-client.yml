@@ -18,7 +18,7 @@ server:
 spring: 
   profiles: beta 
   application:
-    name: microcloud-config-client  
+    name: '{cipher}AQC+QJ0Pr7FR8KGOaeSXcFEnE0aoCVgfI8cUkYiQeiLfbTGRWtz1ehOjZ/0hj3Bk5qZeAUM4yvUjsV/bXYV8rC5C67yxGgbDVthGwVTn0zRG8muwZugvivwFqiWBfJcEkm0raKemROcbF+hK9UsYUA7VLGtvmFTxv88+ltO77iH9G9stEIDQkELbc0lb/jVV7VvDi+wmKHh1qtQGG2LqY/YA74Ix6gdAv7Kg7r1Tm8UFZqF+fXQ5e1+5ce7p9R/vfnvzc9vNE4RXvzwIxqO1uPlQ65BUT+8Qy56fyHHu4Uhw1gaPqE6pjwWhlSs+rnnHl7xyrk05BFGO9l/o33DmO+4onn35cZ4PB8Yrk1T79N0sHpJxby5Ppdf+TFvhfezdLE7N3colSU76VPNs9wYridKx'  
 eureka:
   client: 
     service-url: 
