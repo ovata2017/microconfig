@@ -7,7 +7,7 @@ server:
 spring: 
   profiles: dev 
   application:
-    name: microcloud-config-client   
+    name: '{cipher}514b8eb69f0757b77fc4984f0a91451e129b120877e66176dd7c13a304cab84e110115b0ccc6ca161a655c72b952f3c2'   
 eureka:
   client: 
     service-url: 
